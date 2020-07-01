@@ -175,7 +175,7 @@ print("POPULATION size : ", population)
 iteration = 0;
 while not stop():
 # keep iteratin till  you find the best position
-    population = GA(iteration)
+    population = Genetic_Algo(iteration)
     iteration +=1 
 
 print("Iteration number : ", iteration)
